@@ -1,0 +1,98 @@
+/* App.css */
+
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Container for the Framework component */
+.framework-container {
+  background-color: #282c34;
+  color: #ffffff;
+  height: 100vh;
+}
+
+/* Styling for CodeMirror */
+.CodeMirror {
+  height: 400px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #1e1e1e;
+}
+
+/* Styling for the output area */
+.output-area {
+  margin-top: 20px;
+  background-color: #1e1e1e;
+  padding: 10px;
+}
+
+/* Common Button Styles */
+button {
+  margin: 0 5px;
+}
+
+/* Header Styles */
+h3 {
+  color: #ffffff;
+}
+
+/* Main container for pages */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card-like container for forms */
+.form-container {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form header styles */
+.form-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form input styles */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Submit button styles */
+button.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

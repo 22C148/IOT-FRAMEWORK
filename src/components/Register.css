@@ -1,0 +1,99 @@
+/* Full black background and centered content */
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000; /* Full black background */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styling for the form container */
+.form-container {
+  width: 100%;
+  max-width: 500px; /* Increased max-width for more space */
+  background: #333; /* Slightly lighter dark background for the form */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading styling */
+h1, .form-header {
+  font-size: 2.2em;
+  color: #00aaff; /* Blue color for heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Error message styling */
+.error-message, .error {
+  color: #ff4d4d; /* Red color for error messages */
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #00aaff; /* Blue color for labels */
+}
+
+/* Input styling */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  background: #222; /* Dark background for inputs */
+  color: #fff; /* White text for inputs */
+  font-size: 1em;
+}
+
+/* Input focus styling */
+input:focus {
+  border-color: #00aaff; /* Blue border on focus */
+  outline: none;
+}
+
+/* Submit button styling */
+.submit-button, .submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #00aaff; /* Blue background for the button */
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Submit button hover styling */
+.submit-button:hover, .submit-btn:hover {
+  background: #0088cc; /* Darker blue on hover */
+}
+
+/* Link styling */
+p {
+  margin-top: 20px;
+  font-size: 1.1em;
+  text-align: center;
+  color: #00aaff; /* Blue color for text */
+}
+
+a {
+  color: #00aaff; /* Blue color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+/* src/EncryptDecrypt.css */
+
+.encrypt-decrypt-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.output-paper {
+    padding: 10px;
+    margin-top: 10px;
+}
